@@ -203,8 +203,6 @@ other = "Enkel og transparent prising"
 other = "Engangs migreringshonorar + valgfri månedlig avtale for løpende støtte. Ingen bindingstid."
 [pricing_popular]
 other = "POPULÆR"
-[pricing_one_time]
-other = "engangsbeløp"
 [pricing_footnote_pre]
 other = "Alle planer inkluderer gratis hjelp med hosting-migrering."
 [pricing_footnote_link]
@@ -212,64 +210,66 @@ other = "Trenger du noe spesielt?"
 
 [pricing_starter_name]
 other = "Starter"
-[pricing_starter_per]
-other = "Perfekt for små blogger og presentasjonssider"
+[pricing_starter_price]
+other = "kr 4 990"
 [pricing_starter_item1]
-other = "Inntil 50 sider migrert"
+other = "Migrering av innhold (sider + bloggposter)"
 [pricing_starter_item2]
-other = "Grunnleggende Hugo-tema (responsivt)"
+other = "Eksisterende design bevart i Hugo-tema"
 [pricing_starter_item3]
-other = "URL-mapping & 301-viderekoblinger"
+other = "Norsk eller engelsk"
 [pricing_starter_item4]
-other = "CDN-deploy (Netlify/Vercel)"
+other = "Cloudflare Pages-deploy (gratis hosting)"
 [pricing_starter_item5]
-other = "2 revisjonsrunder"
+other = "301-redirects og SEO-bevaring"
 [pricing_starter_item6]
-other = "30 dagers support etter lansering"
+other = "Sitemap + robots.txt"
+[pricing_starter_item7]
+other = "Leveringstid: 5–7 dager"
 [pricing_starter_cta]
 other = "Kom i gang"
 
-[pricing_growth_name]
-other = "Vekst"
-[pricing_growth_per]
-other = "Best for innholdstunge nettsteder og nyhetsportaler"
-[pricing_growth_item1]
-other = "Inntil 500 sider migrert"
-[pricing_growth_item2]
-other = "Tilpasset Hugo-tema + mørk modus"
-[pricing_growth_item3]
-other = "Full URL-mapping + SEO-revisjon"
-[pricing_growth_item4]
-other = "Bildeoptimaliserings-pipeline"
-[pricing_growth_item5]
-other = "Flerspråklig oppsett (inntil 3 språk)"
-[pricing_growth_item6]
-other = "CI/CD-pipeline-oppsett"
-[pricing_growth_item7]
-other = "60 dagers support etter lansering"
-[pricing_growth_cta]
+[pricing_pro_name]
+other = "Profesjonell"
+[pricing_pro_price]
+other = "kr 12 990"
+[pricing_pro_item1]
+other = "Alt i Starter"
+[pricing_pro_item2]
+other = "Nytt custom Hugo-tema"
+[pricing_pro_item3]
+other = "Norsk + Engelsk (i18n)"
+[pricing_pro_item4]
+other = "Full SEO (OG, JSON-LD, hreflang, Twitter Card)"
+[pricing_pro_item5]
+other = "Kontaktskjema-integrasjon"
+[pricing_pro_item6]
+other = "Google Analytics / Plausible-oppsett"
+[pricing_pro_item7]
+other = "30 dagers support etter lansering"
+[pricing_pro_item8]
+other = "Leveringstid: 2–3 uker"
+[pricing_pro_cta]
 other = "→ Mest populær"
 
 [pricing_enterprise_name]
 other = "Bedrift"
-[pricing_enterprise_per]
-other = "For store portaler, e-læring og intranett"
+[pricing_enterprise_price]
+other = "kr 29 990+"
 [pricing_enterprise_item1]
-other = "Ubegrenset antall sider migrert"
+other = "Alt i Profesjonell"
 [pricing_enterprise_item2]
-other = "Helt tilpasset tema + designsystem"
+other = "Fullstendig ny design fra scratch"
 [pricing_enterprise_item3]
-other = "Tilpassede shortcodes & komponenter"
+other = "Headless CMS-integrasjon (Decap CMS)"
 [pricing_enterprise_item4]
-other = "Avansert søk (Lunr/Pagefind)"
+other = "Automatisert CI/CD pipeline (GitHub Actions)"
 [pricing_enterprise_item5]
-other = "Flerspråklig (ubegrenset antall språk)"
+other = "Ytelsesoptimalisering (Core Web Vitals 90+)"
 [pricing_enterprise_item6]
-other = "Lasttesting & ytelsesjustering"
+other = "Skreddersydd pris basert på omfang"
 [pricing_enterprise_item7]
-other = "Teamtrening (inntil 10 personer)"
-[pricing_enterprise_item8]
-other = "6 måneders prioritert support"
+other = "Leveringstid: 4–6 uker"
 [pricing_enterprise_cta]
 other = "Kontakt salg"
 

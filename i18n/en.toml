@@ -203,8 +203,6 @@ other = "Simple, Transparent Plans"
 other = "One-time migration fee + optional monthly retainer for ongoing support. No lock-in contracts."
 [pricing_popular]
 other = "POPULAR"
-[pricing_one_time]
-other = "one-time"
 [pricing_footnote_pre]
 other = "All plans include free hosting migration assistance."
 [pricing_footnote_link]
@@ -212,64 +210,66 @@ other = "Need something custom?"
 
 [pricing_starter_name]
 other = "Starter"
-[pricing_starter_per]
-other = "Perfect for small blogs & brochure sites"
+[pricing_starter_price]
+other = "NOK 4,990"
 [pricing_starter_item1]
-other = "Up to 50 pages migrated"
+other = "Content migration (pages + blog posts)"
 [pricing_starter_item2]
-other = "Basic Hugo theme (responsive)"
+other = "Existing design preserved in Hugo theme"
 [pricing_starter_item3]
-other = "URL mapping & 301 redirects"
+other = "Norwegian or English"
 [pricing_starter_item4]
-other = "CDN deployment (Netlify/Vercel)"
+other = "Cloudflare Pages deploy (free hosting)"
 [pricing_starter_item5]
-other = "2 rounds of revisions"
+other = "301 redirects and SEO preservation"
 [pricing_starter_item6]
-other = "30-day post-launch support"
+other = "Sitemap + robots.txt"
+[pricing_starter_item7]
+other = "Delivery: 5–7 days"
 [pricing_starter_cta]
 other = "Get Started"
 
-[pricing_growth_name]
-other = "Growth"
-[pricing_growth_per]
-other = "Best for content-heavy sites & news portals"
-[pricing_growth_item1]
-other = "Up to 500 pages migrated"
-[pricing_growth_item2]
-other = "Custom Hugo theme + dark mode"
-[pricing_growth_item3]
-other = "Full URL mapping + SEO audit"
-[pricing_growth_item4]
-other = "Image optimization pipeline"
-[pricing_growth_item5]
-other = "Multilingual setup (up to 3 languages)"
-[pricing_growth_item6]
-other = "CI/CD pipeline setup"
-[pricing_growth_item7]
-other = "60-day post-launch support"
-[pricing_growth_cta]
+[pricing_pro_name]
+other = "Professional"
+[pricing_pro_price]
+other = "NOK 12,990"
+[pricing_pro_item1]
+other = "Everything in Starter"
+[pricing_pro_item2]
+other = "New custom Hugo theme"
+[pricing_pro_item3]
+other = "Norwegian + English (i18n)"
+[pricing_pro_item4]
+other = "Full SEO (OG, JSON-LD, hreflang, Twitter Card)"
+[pricing_pro_item5]
+other = "Contact form integration"
+[pricing_pro_item6]
+other = "Google Analytics / Plausible setup"
+[pricing_pro_item7]
+other = "30 days post-launch support"
+[pricing_pro_item8]
+other = "Delivery: 2–3 weeks"
+[pricing_pro_cta]
 other = "→ Most Popular"
 
 [pricing_enterprise_name]
 other = "Enterprise"
-[pricing_enterprise_per]
-other = "For large portals, e-learning & intranets"
+[pricing_enterprise_price]
+other = "NOK 29,990+"
 [pricing_enterprise_item1]
-other = "Unlimited pages migrated"
+other = "Everything in Professional"
 [pricing_enterprise_item2]
-other = "Fully custom theme + design system"
+other = "Complete new design from scratch"
 [pricing_enterprise_item3]
-other = "Custom shortcodes & components"
+other = "Headless CMS integration (Decap CMS)"
 [pricing_enterprise_item4]
-other = "Advanced search (Lunr/Pagefind)"
+other = "Automated CI/CD pipeline (GitHub Actions)"
 [pricing_enterprise_item5]
-other = "Multilingual (unlimited languages)"
+other = "Performance optimization (Core Web Vitals 90+)"
 [pricing_enterprise_item6]
-other = "Load testing & performance tuning"
+other = "Custom pricing based on scope"
 [pricing_enterprise_item7]
-other = "Team training session (up to 10 people)"
-[pricing_enterprise_item8]
-other = "6 months priority support"
+other = "Delivery: 4–6 weeks"
 [pricing_enterprise_cta]
 other = "Contact Sales"
 
