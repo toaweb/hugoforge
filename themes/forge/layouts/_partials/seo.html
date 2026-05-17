@@ -1,0 +1,73 @@
+{{- $title := .Title -}}
+{{- $desc := .Params.description | default .Site.Params.description -}}
+{{- $url := .Permalink -}}
+{{- $lang := .Language.Lang -}}
+{{- $siteName := "hugo://forge" -}}
+{{- $image := absURL "og-image.png" -}}
+
+<link rel="canonical" href="{{ $url }}">
+
+<meta property="og:type" content="{{ if .IsHome }}website{{ else }}article{{ end }}">
+<meta property="og:title" content="{{ $title }}">
+<meta property="og:description" content="{{ $desc }}">
+<meta property="og:url" content="{{ $url }}">
+<meta property="og:site_name" content="{{ $siteName }}">
+<meta property="og:image" content="{{ $image }}">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:locale" content="{{ if eq $lang "no" }}nb_NO{{ else }}en_US{{ end }}">
+{{ range .Translations -}}
+<meta property="og:locale:alternate" content="{{ if eq .Language.Lang "no" }}nb_NO{{ else }}en_US{{ end }}">
+{{ end }}
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ $title }}">
+<meta name="twitter:description" content="{{ $desc }}">
+<meta name="twitter:image" content="{{ $image }}">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "hugo://forge",
+  "url": "{{ .Site.BaseURL }}",
+  "logo": "{{ absURL "logo.png" }}",
+  "description": {{ $desc | jsonify }},
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Bergen",
+    "addressCountry": "NO"
+  },
+  "sameAs": []
+}
+</script>
+
+{{ if .IsHome -}}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "hugo://forge",
+  "url": "{{ .Site.BaseURL }}",
+  "inLanguage": "{{ if eq $lang "no" }}nb-NO{{ else }}en-US{{ end }}"
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": {{ if eq $lang "no" }}"Hugo-migrering av nettsider"{{ else }}"Hugo Website Migration"{{ end }},
+  "provider": {
+    "@type": "Organization",
+    "name": "hugo://forge"
+  },
+  "description": {{ if eq $lang "no" }}"Vi migrerer nettsider fra WordPress og Drupal til Hugo — lynrask statisk teknologi uten database eller PHP."{{ else }}"We migrate websites from WordPress and Drupal to Hugo — blazing-fast static technology with no database or PHP."{{ end }},
+  "areaServed": {
+    "@type": "Country",
+    "name": "Norway"
+  },
+  "serviceType": {{ if eq $lang "no" }}"Nettstedmigrering"{{ else }}"Website Migration"{{ end }}
+}
+</script>
+{{- end }}

@@ -1,0 +1,19 @@
+{
+  "name": "hugoforge",
+  "version": "1.0.0",
+  "description": "hugo://forge — fast static site migrations from WordPress & Drupal",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "dev": "hugo server -D --bind 0.0.0.0 --port 1313",
+    "build": "hugo --gc --minify",
+    "assets": "bash scripts/generate-assets.sh",
+    "postinstall": "node scripts/fix-tailwindcss-bin.js"
+  },
+  "devDependencies": {
+    "@resvg/resvg-js": "^2.6.2",
+    "@tailwindcss/cli": "^4.3.0",
+    "png-to-ico": "^3.0.1",
+    "tailwindcss": "^4.3.0"
+  }
+}

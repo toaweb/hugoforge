@@ -1,0 +1,66 @@
+<section class="py-20 border-b border-border">
+  <div class="max-w-[1200px] mx-auto px-6">
+    <div class="text-xs text-accent uppercase tracking-[0.1em] mb-2">{{ i18n "why_label" }}</div>
+    <h2 class="text-2xl md:text-4xl font-bold text-fg-heading mb-4">{{ i18n "why_title" }}</h2>
+    <p class="text-muted max-w-[640px] mb-9">{{ i18n "why_desc" }}</p>
+
+    <div class="flex gap-0.5 mb-9 bg-surface border border-border rounded-lg overflow-hidden max-w-[420px]" role="tablist">
+      <button
+        type="button"
+        data-tab-trigger="dev"
+        data-active
+        class="flex-1 px-6 py-2.5 bg-transparent border-0 text-muted font-mono text-[13px] cursor-pointer transition-colors data-[active]:bg-accent-dim data-[active]:text-accent data-[active]:font-bold"
+        role="tab"
+        aria-selected="true">{{ i18n "why_tab_dev" }}</button>
+      <button
+        type="button"
+        data-tab-trigger="business"
+        class="flex-1 px-6 py-2.5 bg-transparent border-0 text-muted font-mono text-[13px] cursor-pointer transition-colors data-[active]:bg-accent-dim data-[active]:text-accent data-[active]:font-bold"
+        role="tab"
+        aria-selected="false">{{ i18n "why_tab_business" }}</button>
+    </div>
+
+    <div data-tab-panel="dev">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        {{ range $i := seq 1 8 }}
+          <div class="bg-surface border border-border rounded-xl p-6">
+            <h4 class="text-[15px] text-fg-heading mb-1.5 font-bold">{{ i18n (printf "why_dev%d_title" $i) }}</h4>
+            <p class="text-[13px] text-muted">{{ i18n (printf "why_dev%d_desc" $i) | safeHTML }}</p>
+          </div>
+        {{ end }}
+      </div>
+    </div>
+
+    <div data-tab-panel="business" class="hidden">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        {{ range $i := seq 1 8 }}
+          <div class="bg-surface border border-border rounded-xl p-6">
+            <h4 class="text-[15px] text-fg-heading mb-1.5 font-bold">{{ i18n (printf "why_biz%d_title" $i) }}</h4>
+            <p class="text-[13px] text-muted">{{ i18n (printf "why_biz%d_desc" $i) | safeHTML }}</p>
+          </div>
+        {{ end }}
+      </div>
+    </div>
+
+    <div class="mt-10 text-center">
+      <a href="{{ "/#services" | relLangURL }}" class="inline-flex items-center gap-2 px-7 py-3 rounded-lg font-mono text-[15px] font-bold bg-transparent border border-accent text-accent hover:bg-accent-dim transition-colors">{{ i18n "why_view_services" }}</a>
+    </div>
+  </div>
+</section>
+
+<script>
+  document.querySelectorAll('[data-tab-trigger]').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      var id = btn.getAttribute('data-tab-trigger');
+      document.querySelectorAll('[data-tab-trigger]').forEach(function(b){
+        b.removeAttribute('data-active');
+        b.setAttribute('aria-selected', 'false');
+      });
+      btn.setAttribute('data-active', '');
+      btn.setAttribute('aria-selected', 'true');
+      document.querySelectorAll('[data-tab-panel]').forEach(function(p){ p.classList.add('hidden'); });
+      var panel = document.querySelector('[data-tab-panel="' + id + '"]');
+      if (panel) panel.classList.remove('hidden');
+    });
+  });
+</script>

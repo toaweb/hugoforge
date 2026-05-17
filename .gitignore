@@ -1,0 +1,14 @@
+public/
+resources/
+.hugo_build.lock
+hugo_stats.json
+node_modules/
+.DS_Store
+*.log
+
+# IDE / editor scratch
+.vscode/
+.idea/
+
+# Local-only artefacts
+.remember/

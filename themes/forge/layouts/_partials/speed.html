@@ -1,0 +1,48 @@
+<section id="speed-section" class="py-20 border-b border-border">
+  <div class="max-w-[1200px] mx-auto px-6">
+    <div class="text-xs text-accent uppercase tracking-[0.1em] mb-2">{{ i18n "speed_label" }}</div>
+    <h2 class="text-2xl md:text-4xl font-bold text-fg-heading mb-4">{{ i18n "speed_title" }}</h2>
+    <p class="text-muted max-w-[640px] mb-12">{{ i18n "speed_desc" }}</p>
+
+    <div class="bg-surface border border-border rounded-xl p-9 max-md:p-6 flex flex-col gap-5">
+      <div class="grid grid-cols-[140px_1fr_80px] items-center gap-4 max-md:grid-cols-[100px_1fr_60px] max-md:gap-2.5">
+        <span class="text-sm text-muted font-bold">{{ i18n "speed_row_hugo_label" }}</span>
+        <div class="h-7 max-md:h-5 bg-surface-alt rounded-sm overflow-hidden relative">
+          <div class="h-full w-[2%] bg-accent rounded-sm flex items-center px-3 text-xs text-bg font-bold whitespace-nowrap">{{ i18n "speed_row_hugo_bar" }}</div>
+        </div>
+        <span class="text-sm text-fg-heading text-right font-bold max-md:text-xs">2ms</span>
+      </div>
+      <div class="grid grid-cols-[140px_1fr_80px] items-center gap-4 max-md:grid-cols-[100px_1fr_60px] max-md:gap-2.5">
+        <span class="text-sm text-muted font-bold">{{ i18n "speed_row_static_label" }}</span>
+        <div class="h-7 max-md:h-5 bg-surface-alt rounded-sm overflow-hidden relative">
+          <div class="h-full w-[5%] bg-accent rounded-sm flex items-center px-3 text-xs text-bg font-bold whitespace-nowrap">{{ i18n "speed_row_static_bar" }}</div>
+        </div>
+        <span class="text-sm text-fg-heading text-right font-bold max-md:text-xs">5ms</span>
+      </div>
+      <div class="grid grid-cols-[140px_1fr_80px] items-center gap-4 max-md:grid-cols-[100px_1fr_60px] max-md:gap-2.5">
+        <span class="text-sm text-muted font-bold">{{ i18n "speed_row_nextjs_label" }}</span>
+        <div class="h-7 max-md:h-5 bg-surface-alt rounded-sm overflow-hidden relative">
+          <div class="h-full w-[25%] bg-warn rounded-sm flex items-center px-3 text-xs text-bg font-bold whitespace-nowrap">{{ i18n "speed_row_nextjs_bar" }}</div>
+        </div>
+        <span class="text-sm text-fg-heading text-right font-bold max-md:text-xs">25ms</span>
+      </div>
+      <div class="grid grid-cols-[140px_1fr_80px] items-center gap-4 max-md:grid-cols-[100px_1fr_60px] max-md:gap-2.5">
+        <span class="text-sm text-muted font-bold">{{ i18n "speed_row_wp_label" }}</span>
+        <div class="h-7 max-md:h-5 bg-surface-alt rounded-sm overflow-hidden relative">
+          <div class="h-full w-full bg-danger rounded-sm flex items-center px-3 text-xs text-bg font-bold whitespace-nowrap">{{ i18n "speed_row_wp_bar" }}</div>
+        </div>
+        <span class="text-sm text-fg-heading text-right font-bold max-md:text-xs">400ms</span>
+      </div>
+      <div class="grid grid-cols-[140px_1fr_80px] items-center gap-4 max-md:grid-cols-[100px_1fr_60px] max-md:gap-2.5">
+        <span class="text-sm text-muted font-bold">{{ i18n "speed_row_drupal_label" }}</span>
+        <div class="h-7 max-md:h-5 bg-surface-alt rounded-sm overflow-hidden relative">
+          <div class="h-full w-full bg-danger rounded-sm flex items-center px-3 text-xs text-bg font-bold whitespace-nowrap">{{ i18n "speed_row_drupal_bar" }}</div>
+        </div>
+        <span class="text-sm text-fg-heading text-right font-bold max-md:text-xs">480ms</span>
+      </div>
+      <p class="text-[13px] text-muted text-center mt-2">
+        {{ i18n "speed_note_pre" }} <strong class="text-fg">{{ i18n "speed_note_strong" }}</strong>{{ i18n "speed_note_post" }}
+      </p>
+    </div>
+  </div>
+</section>

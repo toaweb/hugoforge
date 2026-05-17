@@ -1,0 +1,5 @@
+name = "hugoforge"
+pages_build_output_dir = "public"
+
+[env.production]
+name = "hugoforge"

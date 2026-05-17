@@ -1,0 +1,496 @@
+# ─── Nav ───
+[nav_home]
+other = "HJEM"
+[nav_services]
+other = "TJENESTER"
+[nav_about]
+other = "OM OSS"
+[nav_contact]
+other = "KONTAKT"
+[nav_cta]
+other = "FÅ ET TILBUD"
+
+# ─── Hero ───
+[hero_tag]
+other = "⚡ Spesialister på migrering til statiske nettsider"
+[hero_h1_pre]
+other = "Dropp WordPress og Drupal."
+[hero_h1_go]
+other = "Bli"
+[hero_h1_accent]
+other = "100x raskere"
+[hero_h1_post]
+other = "med Hugo."
+[hero_sub]
+other = "Vi migrerer nettstedet ditt til Hugo — en statisk nettstedsgenerator som bygger hele siden din på millisekunder. Ingen database. Ingen PHP. Ingen trege sider. Bare ren, lynrask HTML."
+[hero_btn_primary]
+other = "→ Start migreringen"
+[hero_btn_secondary]
+other = "Se tallene ↓"
+
+# ─── Speed ───
+[speed_label]
+other = "#1. Ytelse"
+[speed_title]
+other = "Hugo vs WordPress vs Drupal"
+[speed_desc]
+other = "Reelle målinger på et standard innholdsnettsted med ~500 sider. Tallene lyver ikke."
+[speed_row_hugo_label]
+other = "HUGO"
+[speed_row_hugo_bar]
+other = "~2ms bygg/side"
+[speed_row_static_label]
+other = "STATISK HTML"
+[speed_row_static_bar]
+other = "~5ms"
+[speed_row_nextjs_label]
+other = "Next.js (SSG)"
+[speed_row_nextjs_bar]
+other = "~25ms"
+[speed_row_wp_label]
+other = "WordPress"
+[speed_row_wp_bar]
+other = "~400ms (DB-spørring)"
+[speed_row_drupal_label]
+other = "Drupal"
+[speed_row_drupal_bar]
+other = "~480ms"
+[speed_note_pre]
+other = "Hugo bygger hele ditt 500-siders nettsted på"
+[speed_note_strong]
+other = "under 1 sekund"
+[speed_note_post]
+other = ". WordPress trenger en databasespørring ved hvert eneste besøk. Det er 100–200× raskere sideleveranse med Hugo."
+
+# ─── Features (3 cards under speed) ───
+[features_zerodb_title]
+other = "Ingen database"
+[features_zerodb_desc]
+other = "Ingen MySQL, ingen MariaDB, ingen spørretreghet. Hugo serverer flate HTML-filer fra hvilken som helst CDN eller server."
+[features_nophp_title]
+other = "Ingen PHP-runtime"
+[features_nophp_desc]
+other = "Ingen mod_php, ingen FastCGI, ingen minnegrenser. Nettstedet ditt er ren HTML — umulig å hacke via plugin-utnyttelser."
+[features_deploy_title]
+other = "Deploy hvor som helst"
+[features_deploy_desc]
+other = "Netlify, Vercel, Cloudflare Pages, S3, GitHub Pages — selv en VPS til 50 kr serverer millioner av treff."
+
+# ─── Checklist ───
+[checklist_label]
+other = "#2. Migreringsplan"
+[checklist_title]
+other = "Fra legacy til Hugo i 6 trinn"
+[checklist_desc]
+other = "Vi håndterer hver fase. Nettstedet ditt er oppe gjennom hele migreringen — null nedetid."
+[checklist_step1_title]
+other = "Kartlegging & analyse"
+[checklist_step1_desc]
+other = "Vi gjennomgår eksisterende nettsted, kartlegger alle innholdstyper og identifiserer egendefinerte posttyper, plugins og moduler."
+[checklist_step2_title]
+other = "Innholdsuthenting"
+[checklist_step2_desc]
+other = "Eksporter alle innlegg, sider, media og metadata. Konverter WordPress/Drupal-markup til ren Markdown."
+[checklist_step3_title]
+other = "Temautvikling"
+[checklist_step3_desc]
+other = "Bygg et tilpasset Hugo-tema som matcher merkevaren din. Responsivt, tilgjengelig og 10× lettere enn det gamle temaet."
+[checklist_step4_title]
+other = "URL-mapping & viderekoblinger"
+[checklist_step4_desc]
+other = "Behold alle SEO-rangeringer med 1:1 URL-mapping. Sett opp 301-viderekoblinger for eventuelle strukturelle endringer."
+[checklist_step5_title]
+other = "Bygg & forhåndsvisning"
+[checklist_step5_desc]
+other = "Vi genererer hele det statiske nettstedet på en staging-URL. Du gjennomgår hver side før lansering."
+[checklist_step6_title]
+other = "Deploy & overlevering"
+[checklist_step6_desc]
+other = "Publiser til CDN, konfigurer HTTPS, sett opp deploy-hooks. Vi lærer opp teamet ditt på Hugo-arbeidsflyten."
+[checklist_chip1]
+other = "⏱ Typisk migrering: 2–4 uker"
+[checklist_chip2]
+other = "📉 90 %+ reduksjon i lastetid"
+[checklist_chip3]
+other = "🔒 Ingen sikkerhetsoppdateringer nødvendig"
+
+# ─── Why Hugo? ───
+[why_label]
+other = "#3. Hvorfor Hugo?"
+[why_title]
+other = "Bygget for team som leverer"
+[why_desc]
+other = "Enten du er utvikler som optimaliserer verktøykjeden eller leder som kutter kostnader — Hugo leverer."
+[why_tab_dev]
+other = "FOR UTVIKLERE"
+[why_tab_business]
+other = "FOR BEDRIFTER"
+[why_view_services]
+other = "→ Se alle tjenester"
+
+[why_dev1_title]
+other = "⚡ Bygg på under et sekund"
+[why_dev1_desc]
+other = "Hugo kompilerer 10 000+ sider på under 2 sekunder. Ingen byggeserver nødvendig — bare <code class=\"text-accent\">hugo</code> på hvilken som helst maskin."
+[why_dev2_title]
+other = "📝 Markdown-basert"
+[why_dev2_desc]
+other = "Skriv i Markdown med shortcodes. Git-vennlig innhold som hele teamet kan versjonere."
+[why_dev3_title]
+other = "🔧 Full malkontroll"
+[why_dev3_desc]
+other = "Go-templates gir deg løkker, betingelser, partials og paginering — uten et CMS-pluginøkosystem."
+[why_dev4_title]
+other = "📦 Én binærfil"
+[why_dev4_desc]
+other = "Én <code class=\"text-accent\">hugo</code>-binær, null avhengigheter. Installer via brew, apt eller nedlasting — kjører overalt."
+[why_dev5_title]
+other = "🔄 Hot reload"
+[why_dev5_desc]
+other = "<code class=\"text-accent\">hugo server</code> med live reload. Endre en Markdown-fil og se resultatet i nettleseren umiddelbart."
+[why_dev6_title]
+other = "🌐 i18n & flerspråklig"
+[why_dev6_desc]
+other = "Innebygd internasjonalisering. Ett innholdstre, flere språk, automatisk URL-lokalisering."
+[why_dev7_title]
+other = "📊 Build hooks & CI/CD"
+[why_dev7_desc]
+other = "Én kommando deployer: <code class=\"text-accent\">hugo && netlify deploy</code>. Integrerer med GitHub Actions, GitLab CI, Jenkins."
+[why_dev8_title]
+other = "📸 Bildebehandling"
+[why_dev8_desc]
+other = "Endre størrelse, beskjær, roter og konverter bilder ved byggetid. Ingen JavaScript nødvendig. Responsive bilder rett ut av boksen."
+
+[why_biz1_title]
+other = "💰 80 % lavere driftskostnader"
+[why_biz1_desc]
+other = "Statisk HTML på en CDN koster nesten ingenting. Ingen managed WordPress-hosting til 2000 kr/mnd. Ingen databaseserver."
+[why_biz2_title]
+other = "🚀 100× raskere sidelasting"
+[why_biz2_desc]
+other = "Ingen databasespørringer, ingen PHP-kjøring. Sider lastes umiddelbart — forbedrer Core Web Vitals og SEO-rangering."
+[why_biz3_title]
+other = "🔒 Null sikkerhetsflate"
+[why_biz3_desc]
+other = "Ingen WordPress-plugin-sårbarheter. Ingen Drupal-modul-utnyttelser. Ingen PHP-runtime å patche. Aldri."
+[why_biz4_title]
+other = "♻️ Aldri bygg om igjen"
+[why_biz4_desc]
+other = "Et Hugo-nettsted fra 2018 bygger fortsatt på dagens Hugo. Ingen avhengighetsråte, ingen rammeverk-bytte."
+[why_biz5_title]
+other = "📈 Bedre SEO ut av boksen"
+[why_biz5_desc]
+other = "Perfekte Lighthouse-poeng. Ingen render-blokkerende JS. Ren semantisk HTML som søkemotorer elsker."
+[why_biz6_title]
+other = "👩‍💻 Utviklere er tilgjengelige"
+[why_biz6_desc]
+other = "Hugo bruker Go-templates — et utbredt språk. Slipp å lete etter nisje-WordPress/PHP-utviklere."
+[why_biz7_title]
+other = "📱 Ekte headless CMS"
+[why_biz7_desc]
+other = "Kombiner Hugo med Netlify CMS, Forestry eller Decap CMS. Redaktørene får et grensesnitt — nettstedet forblir statisk."
+[why_biz8_title]
+other = "📋 Revisjonsklar"
+[why_biz8_desc]
+other = "Hver deploy er en Git-commit. Full endringshistorikk. Tilbakerulling med ett klikk. Compliance-team elsker dette."
+
+# ─── Pricing ───
+[pricing_label]
+other = "#4. Priser"
+[pricing_title]
+other = "Enkel og transparent prising"
+[pricing_desc]
+other = "Engangs migreringshonorar + valgfri månedlig avtale for løpende støtte. Ingen bindingstid."
+[pricing_popular]
+other = "POPULÆR"
+[pricing_one_time]
+other = "engangsbeløp"
+[pricing_footnote_pre]
+other = "Alle planer inkluderer gratis hjelp med hosting-migrering."
+[pricing_footnote_link]
+other = "Trenger du noe spesielt?"
+
+[pricing_starter_name]
+other = "Starter"
+[pricing_starter_per]
+other = "Perfekt for små blogger og presentasjonssider"
+[pricing_starter_item1]
+other = "Inntil 50 sider migrert"
+[pricing_starter_item2]
+other = "Grunnleggende Hugo-tema (responsivt)"
+[pricing_starter_item3]
+other = "URL-mapping & 301-viderekoblinger"
+[pricing_starter_item4]
+other = "CDN-deploy (Netlify/Vercel)"
+[pricing_starter_item5]
+other = "2 revisjonsrunder"
+[pricing_starter_item6]
+other = "30 dagers support etter lansering"
+[pricing_starter_cta]
+other = "Kom i gang"
+
+[pricing_growth_name]
+other = "Vekst"
+[pricing_growth_per]
+other = "Best for innholdstunge nettsteder og nyhetsportaler"
+[pricing_growth_item1]
+other = "Inntil 500 sider migrert"
+[pricing_growth_item2]
+other = "Tilpasset Hugo-tema + mørk modus"
+[pricing_growth_item3]
+other = "Full URL-mapping + SEO-revisjon"
+[pricing_growth_item4]
+other = "Bildeoptimaliserings-pipeline"
+[pricing_growth_item5]
+other = "Flerspråklig oppsett (inntil 3 språk)"
+[pricing_growth_item6]
+other = "CI/CD-pipeline-oppsett"
+[pricing_growth_item7]
+other = "60 dagers support etter lansering"
+[pricing_growth_cta]
+other = "→ Mest populær"
+
+[pricing_enterprise_name]
+other = "Bedrift"
+[pricing_enterprise_per]
+other = "For store portaler, e-læring og intranett"
+[pricing_enterprise_item1]
+other = "Ubegrenset antall sider migrert"
+[pricing_enterprise_item2]
+other = "Helt tilpasset tema + designsystem"
+[pricing_enterprise_item3]
+other = "Tilpassede shortcodes & komponenter"
+[pricing_enterprise_item4]
+other = "Avansert søk (Lunr/Pagefind)"
+[pricing_enterprise_item5]
+other = "Flerspråklig (ubegrenset antall språk)"
+[pricing_enterprise_item6]
+other = "Lasttesting & ytelsesjustering"
+[pricing_enterprise_item7]
+other = "Teamtrening (inntil 10 personer)"
+[pricing_enterprise_item8]
+other = "6 måneders prioritert support"
+[pricing_enterprise_cta]
+other = "Kontakt salg"
+
+# ─── About ───
+[about_label]
+other = "Hvem vi er"
+[about_title]
+other = "Vi gjør statiske nettsider enkelt"
+[about_stat1_num]
+other = "200+"
+[about_stat1_label]
+other = "Migrerte nettsteder"
+[about_stat2_num]
+other = "99,9 %"
+[about_stat2_label]
+other = "Snitt-oppetid"
+[about_stat3_num]
+other = "12x"
+[about_stat3_label]
+other = "Snitt-hastighetsøkning"
+[about_stat4_num]
+other = "100 %"
+[about_stat4_label]
+other = "Kundelojalitet"
+[about_story_p1]
+other = "<strong class=\"text-fg\">hugo://forge</strong> ble grunnlagt av tidligere WordPress-byråutviklere som var lei av å patche sårbarheter, kjempe med PHP-minnegrenser, og forklare kunder hvorfor «den enkle bloggen» trengte en hostingplan til 2000 kr/mnd."
+[about_story_p2]
+other = "Vi oppdaget Hugo i 2018 og har aldri sett oss tilbake. Siden har vi hjulpet <strong class=\"text-fg\">200+ organisasjoner</strong> — fra soloblogger til Fortune 500-team — med å bryte fri fra gammel CMS-smerte. Vi selger deg ikke et nytt CMS du må migrere bort fra om fem år. Vi selger deg et nettsted som fortsatt bygger og leverer perfekt om ti år."
+[about_story_p3]
+other = "<em class=\"text-fg\">«Statisk betyr ikke statisk innhold. Statisk betyr statisk infrastruktur. Innholdet ditt kan være så dynamisk du vil — det er bare ferdigrendret, cachet i kanten, og levert på millisekunder.»</em>"
+[about_values_label]
+other = "Våre verdier"
+[about_value1_title]
+other = "Hastighet er en funksjon"
+[about_value1_desc]
+other = "Hvert millisekund med lastetid koster deg konverteringer og SEO-rangering. Vi optimaliserer hardt fordi trege nettsteder taper."
+[about_value2_title]
+other = "Sikkerhet som standard"
+[about_value2_desc]
+other = "Ingen PHP, ingen database, ingen plugin-angrepsflate. Statiske nettsteder er trygge i utgangspunktet — vi går aldri på kompromiss med det."
+[about_value3_title]
+other = "Kunnskapsoverføring"
+[about_value3_desc]
+other = "Vi skaper ikke avhengighet av oss. Hver migrering ender med opplæring, dokumentasjon, og en arbeidsflyt teamet ditt eier."
+
+# ─── Services ───
+[services_label]
+other = "Hva vi gjør"
+[services_title]
+other = "Våre tjenester"
+[services_desc]
+other = "Komplett migrering fra legacy-CMS til Hugo. Hvert prosjekt inkluderer gratis analyse, full SEO-bevaring og teamopplæring."
+
+[services_s1_title]
+other = "01. Full CMS-migrering"
+[services_s1_desc]
+other = "Komplett migrering fra WordPress, Drupal, Joomla eller et hvilket som helst PHP-basert CMS til Hugo. Vi henter ut hvert innlegg, hver side, hver mediefil, hver brukerkommentar og hvert metadatafelt — og konverterer dem til ren Markdown med front matter. Innholdsstrukturen, taksonomiene og relasjonene dine bevares."
+[services_s1_item1]
+other = "Automatiserte eksportskript for alle store CMS-plattformer"
+[services_s1_item2]
+other = "Tilpasset innholdsmapping for ikke-standard posttyper"
+[services_s1_item3]
+other = "Migrering av mediebibliotek med bildeoptimalisering"
+[services_s1_item4]
+other = "Brukerkontoer & rettighetsmapping (ved behov)"
+[services_s1_item5]
+other = "Database-til-Markdown-konvertering uten datatap"
+
+[services_s2_title]
+other = "02. Temautvikling"
+[services_s2_desc]
+other = "Vi bygger lette og responsive Hugo-temaer fra bunnen av. Ingen oppblåste rammeverk, ingen jQuery — bare moderne CSS Grid, semantisk HTML og Go-templates. Hvert tema scorer 95+ på Lighthouse ut av boksen."
+[services_s2_item1]
+other = "Tilpasset design i tråd med merkevareprofilen"
+[services_s2_item2]
+other = "Fullt responsivt: mobil, nettbrett, desktop"
+[services_s2_item3]
+other = "Støtte for mørk modus inkludert"
+[services_s2_item4]
+other = "Tilgjengelig (WCAG 2.1 AA-kompatibelt)"
+[services_s2_item5]
+other = "Lazy loading av bilder & responsive bildesett"
+[services_s2_item6]
+other = "Innebygd SEO-metadata (Open Graph, Twitter Cards, JSON-LD)"
+
+[services_s3_title]
+other = "03. Ytelsesanalyse & optimalisering"
+[services_s3_desc]
+other = "Allerede på Hugo eller vurderer det? Vi analyserer ytelsen på det eksisterende nettstedet, identifiserer flaskehalser, og implementerer alle Hugo-optimaliseringer — fra bildebehandlings-pipelines til critical CSS-inlining."
+[services_s3_item1]
+other = "Full Lighthouse & Web Vitals-analyse"
+[services_s3_item2]
+other = "Bilde-CDN & AVIF/WebP-konvertering"
+[services_s3_item3]
+other = "CSS/JS bundle-splitting & minifisering"
+[services_s3_item4]
+other = "Preload / prefetch-strategi"
+[services_s3_item5]
+other = "Cache-policy & CDN-konfigurasjon"
+[services_s3_item6]
+other = "Før/etter-rapport på ytelse"
+
+[services_s4_title]
+other = "04. Løpende support & opplæring"
+[services_s4_desc]
+other = "Vi overleverer ikke bare nøklene — vi sørger for at teamet ditt kan drifte nettstedet selvstendig. Inkluderer opplæring i arbeidsflyt, oppsett av innholdsstyring (valgfritt headless CMS), og en prioritert support-SLA."
+[services_s4_item1]
+other = "Team-workshop (inntil 10 personer, eksternt eller på stedet)"
+[services_s4_item2]
+other = "Detaljert dokumentasjon tilpasset oppsettet ditt"
+[services_s4_item3]
+other = "Opplæring i CI/CD-pipeline (Git-baserte deployer)"
+[services_s4_item4]
+other = "Onboarding på headless CMS (Netlify CMS, Decap, osv.)"
+[services_s4_item5]
+other = "Prioritert Slack/e-post-support"
+[services_s4_item6]
+other = "Månedlige ytelsesrapporter"
+
+# ─── Contact ───
+[contact_label]
+other = "Ta kontakt"
+[contact_title]
+other = "Start migreringen i dag"
+[contact_desc]
+other = "Fyll ut skjemaet, så svarer vi innen 24 timer med et gratis analyseforslag. Ingen forpliktelse, intet salgspitch — bare ærlige råd."
+
+[contact_name]
+other = "Navnet ditt"
+[contact_name_ph]
+other = "f.eks. Kari Nordmann"
+[contact_email]
+other = "E-postadresse"
+[contact_email_ph]
+other = "kari@selskap.no"
+[contact_company]
+other = "Selskap / nettsted"
+[contact_company_ph]
+other = "Nåværende URL eller selskapsnavn"
+[contact_cms]
+other = "Nåværende CMS"
+[contact_cms_select]
+other = "— Velg —"
+[contact_cms_other]
+other = "Annet PHP-CMS"
+[contact_cms_custom]
+other = "Egenutviklet / annet"
+[contact_pages]
+other = "Omtrentlig antall sider"
+[contact_pages_ph]
+other = "f.eks. 150"
+[contact_message]
+other = "Fortell oss om prosjektet"
+[contact_message_ph]
+other = "Mål, tidslinjer, spesifikke krav — alt vi bør vite ..."
+[contact_submit]
+other = "→ Send forespørsel"
+
+[contact_info_title]
+other = "Kontaktinformasjon"
+[contact_info_email]
+other = "E-post:"
+[contact_info_response]
+other = "Responstid:"
+[contact_info_response_val]
+other = "Innen 24 timer, vanligvis raskere"
+[contact_info_office]
+other = "Kontor:"
+[contact_info_hours]
+other = "Åpningstider:"
+[contact_info_hours_val]
+other = "Man–fre, 09.00 – 18.00 PT"
+[contact_info_work_with]
+other = "Vi jobber med:"
+[contact_info_work_with_val]
+other = "Byråer • Startups • Bedrifter • Frivillige org. • Offentlig sektor"
+
+# ─── CTA (final) ───
+[cta_label]
+other = "Klar?"
+[cta_title]
+other = "Det gamle CMS-et ditt koster deg fart, sikkerhet og penger."
+[cta_desc]
+other = "Bli en av hundrevis av selskaper som har byttet. Gratis migreringsanalyse med hver forespørsel."
+[cta_btn_audit]
+other = "→ Få din gratis analyse"
+[cta_btn_about]
+other = "Les om oss"
+
+# ─── Footer ───
+[footer_desc]
+other = "Rask migrering av statiske nettsider fra WordPress, Drupal og andre eldre CMS-plattformer. Vi gjør nettstedet ditt 100× raskere på uker, ikke måneder."
+[footer_built]
+other = "Bygget med Hugo · Hostet på Netlify · Ingen database påkrevd"
+[footer_col_pages]
+other = "Sider"
+[footer_col_services]
+other = "Tjenester"
+[footer_col_contact]
+other = "Kontakt"
+[footer_link_home]
+other = "Hjem"
+[footer_link_services]
+other = "Tjenester"
+[footer_link_about]
+other = "Om oss"
+[footer_link_contact]
+other = "Kontakt"
+[footer_link_full_migration]
+other = "Full migrering"
+[footer_link_theme_dev]
+other = "Temautvikling"
+[footer_link_perf_audit]
+other = "Ytelsesanalyse"
+[footer_link_support]
+other = "Løpende support"
+[footer_link_book]
+other = "Book en samtale"
+[footer_link_audit]
+other = "Gratis analyse"
+[footer_rights]
+other = "Alle rettigheter forbeholdt."
+[footer_trademark]
+other = "WordPress er et varemerke for WordPress Foundation. Drupal er et varemerke for Dries Buytaert."

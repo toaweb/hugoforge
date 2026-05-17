@@ -1,0 +1,14 @@
+<section id="home" class="pt-[120px] pb-10 text-center">
+  <div class="max-w-[1200px] mx-auto px-6">
+    <div class="text-[13px] text-accent uppercase tracking-[0.08em] mb-4">{{ i18n "hero_tag" }}</div>
+    <h1 class="text-4xl md:text-6xl font-bold text-fg-heading leading-tight mb-5">
+      {{ i18n "hero_h1_pre" }}<br>
+      {{ i18n "hero_h1_go" }} <span class="text-accent">{{ i18n "hero_h1_accent" }}</span> {{ i18n "hero_h1_post" }}
+    </h1>
+    <p class="text-base md:text-xl text-muted max-w-[680px] mx-auto mb-9">{{ i18n "hero_sub" }}</p>
+    <div class="flex gap-3 justify-center flex-wrap">
+      <a href="{{ "/#contact" | relLangURL }}" class="inline-flex items-center gap-2 px-7 py-3 rounded-lg font-mono text-[15px] font-bold bg-accent text-bg hover:opacity-85 transition-opacity">{{ i18n "hero_btn_primary" }}</a>
+      <a href="{{ "/#speed-section" | relLangURL }}" class="inline-flex items-center gap-2 px-7 py-3 rounded-lg font-mono text-[15px] font-bold bg-transparent border border-accent text-accent hover:bg-accent-dim transition-colors">{{ i18n "hero_btn_secondary" }}</a>
+    </div>
+  </div>
+</section>

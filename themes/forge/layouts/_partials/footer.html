@@ -1,0 +1,41 @@
+<footer class="bg-surface border-t border-border pt-12 pb-6">
+  <div class="max-w-[1200px] mx-auto px-6">
+    <div class="grid grid-cols-1 md:grid-cols-[2fr_1fr_1fr_1fr] gap-10 mb-10">
+      <div>
+        <a href="{{ "/" | relLangURL }}" class="text-base font-bold text-fg-heading inline-block mb-3">&gt;_ <span class="text-accent">hugo://forge</span></a>
+        <p class="text-[13px] text-muted mb-4">{{ i18n "footer_desc" }}</p>
+        <p class="text-xs text-muted">{{ i18n "footer_built" }}</p>
+      </div>
+      <div>
+        <h4 class="text-[13px] font-bold text-fg-heading uppercase tracking-[0.08em] mb-3.5">{{ i18n "footer_col_pages" }}</h4>
+        <div class="flex flex-col gap-2.5">
+          <a href="{{ "/#home" | relLangURL }}" class="text-[13px] text-muted hover:text-accent">{{ i18n "footer_link_home" }}</a>
+          <a href="{{ "/#services" | relLangURL }}" class="text-[13px] text-muted hover:text-accent">{{ i18n "footer_link_services" }}</a>
+          <a href="{{ "/#about" | relLangURL }}" class="text-[13px] text-muted hover:text-accent">{{ i18n "footer_link_about" }}</a>
+          <a href="{{ "/#contact" | relLangURL }}" class="text-[13px] text-muted hover:text-accent">{{ i18n "footer_link_contact" }}</a>
+        </div>
+      </div>
+      <div>
+        <h4 class="text-[13px] font-bold text-fg-heading uppercase tracking-[0.08em] mb-3.5">{{ i18n "footer_col_services" }}</h4>
+        <div class="flex flex-col gap-2.5">
+          <a href="{{ "/#services" | relLangURL }}" class="text-[13px] text-muted hover:text-accent">{{ i18n "footer_link_full_migration" }}</a>
+          <a href="{{ "/#services" | relLangURL }}" class="text-[13px] text-muted hover:text-accent">{{ i18n "footer_link_theme_dev" }}</a>
+          <a href="{{ "/#services" | relLangURL }}" class="text-[13px] text-muted hover:text-accent">{{ i18n "footer_link_perf_audit" }}</a>
+          <a href="{{ "/#services" | relLangURL }}" class="text-[13px] text-muted hover:text-accent">{{ i18n "footer_link_support" }}</a>
+        </div>
+      </div>
+      <div>
+        <h4 class="text-[13px] font-bold text-fg-heading uppercase tracking-[0.08em] mb-3.5">{{ i18n "footer_col_contact" }}</h4>
+        <div class="flex flex-col gap-2.5">
+          <a href="mailto:hello@hugoforge.com" class="text-[13px] text-muted hover:text-accent">hello@hugoforge.com</a>
+          <a href="{{ "/#contact" | relLangURL }}" class="text-[13px] text-muted hover:text-accent">{{ i18n "footer_link_book" }}</a>
+          <a href="{{ "/#contact" | relLangURL }}" class="text-[13px] text-muted hover:text-accent">{{ i18n "footer_link_audit" }}</a>
+        </div>
+      </div>
+    </div>
+    <div class="border-t border-border pt-5 flex justify-between items-center flex-wrap gap-3">
+      <p class="text-xs text-muted">© {{ now.Year }} <span class="text-accent">hugo://forge</span>. {{ i18n "footer_rights" }}</p>
+      <p class="text-xs text-muted">{{ i18n "footer_trademark" }}</p>
+    </div>
+  </div>
+</footer>

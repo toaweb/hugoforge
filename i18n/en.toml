@@ -1,0 +1,496 @@
+# ─── Nav ───
+[nav_home]
+other = "HOME"
+[nav_services]
+other = "SERVICES"
+[nav_about]
+other = "ABOUT"
+[nav_contact]
+other = "CONTACT"
+[nav_cta]
+other = "GET A QUOTE"
+
+# ─── Hero ───
+[hero_tag]
+other = "⚡ Static Site Migration Specialists"
+[hero_h1_pre]
+other = "Ditch WordPress & Drupal."
+[hero_h1_go]
+other = "Go"
+[hero_h1_accent]
+other = "100x faster"
+[hero_h1_post]
+other = "with Hugo."
+[hero_sub]
+other = "We migrate your existing site to Hugo — a static site generator that builds your entire site in milliseconds. No database. No PHP. No slow pages. Just pure, blazing-fast HTML."
+[hero_btn_primary]
+other = "→ Start Your Migration"
+[hero_btn_secondary]
+other = "See The Numbers ↓"
+
+# ─── Speed ───
+[speed_label]
+other = "#1. Performance"
+[speed_title]
+other = "Hugo vs WordPress vs Drupal"
+[speed_desc]
+other = "Real benchmarks on a standard content site with ~500 pages. Numbers don't lie."
+[speed_row_hugo_label]
+other = "HUGO"
+[speed_row_hugo_bar]
+other = "~2ms build/page"
+[speed_row_static_label]
+other = "STATIC HTML"
+[speed_row_static_bar]
+other = "~5ms"
+[speed_row_nextjs_label]
+other = "Next.js (SSG)"
+[speed_row_nextjs_bar]
+other = "~25ms"
+[speed_row_wp_label]
+other = "WordPress"
+[speed_row_wp_bar]
+other = "~400ms (DB query)"
+[speed_row_drupal_label]
+other = "Drupal"
+[speed_row_drupal_bar]
+other = "~480ms"
+[speed_note_pre]
+other = "Hugo builds your entire 500-page site in"
+[speed_note_strong]
+other = "under 1 second"
+[speed_note_post]
+other = ". WordPress needs a database query on every single visit. That's 100–200× faster page delivery with Hugo."
+
+# ─── Features (3 cards under speed) ───
+[features_zerodb_title]
+other = "Zero Database"
+[features_zerodb_desc]
+other = "No MySQL, no MariaDB, no query latency. Hugo serves flat HTML files from any CDN or server."
+[features_nophp_title]
+other = "No PHP Runtime"
+[features_nophp_desc]
+other = "No mod_php, no FastCGI, no memory limits. Your site is pure HTML — impossible to hack via plugin exploits."
+[features_deploy_title]
+other = "Deploy Anywhere"
+[features_deploy_desc]
+other = "Netlify, Vercel, Cloudflare Pages, S3, GitHub Pages — even a $5 VPS serves millions of hits."
+
+# ─── Checklist ───
+[checklist_label]
+other = "#2. Migration Roadmap"
+[checklist_title]
+other = "From Legacy to Hugo in 6 Steps"
+[checklist_desc]
+other = "We handle every phase. Your site stays live throughout the migration — zero downtime."
+[checklist_step1_title]
+other = "Audit & Discovery"
+[checklist_step1_desc]
+other = "We crawl your existing site, map all content types, identify custom post types, plugins, and modules."
+[checklist_step2_title]
+other = "Content Extraction"
+[checklist_step2_desc]
+other = "Export all posts, pages, media, and metadata. Convert WordPress/Drupal markup to clean Markdown."
+[checklist_step3_title]
+other = "Theme Development"
+[checklist_step3_desc]
+other = "Build a custom Hugo theme matching your brand. Responsive, accessible, and 10× lighter than your old theme."
+[checklist_step4_title]
+other = "URL Mapping & Redirects"
+[checklist_step4_desc]
+other = "Preserve all SEO rankings with 1:1 URL mapping. Set up 301 redirects for any structural changes."
+[checklist_step5_title]
+other = "Build & Preview"
+[checklist_step5_desc]
+other = "We generate the full static site on a staging URL. You review every page before go-live."
+[checklist_step6_title]
+other = "Deploy & Handover"
+[checklist_step6_desc]
+other = "Push to CDN, configure HTTPS, set up deploy hooks. We train your team on the Hugo workflow."
+[checklist_chip1]
+other = "⏱ Typical migration: 2–4 weeks"
+[checklist_chip2]
+other = "📉 90%+ reduction in page load time"
+[checklist_chip3]
+other = "🔒 No security patches needed"
+
+# ─── Why Hugo? ───
+[why_label]
+other = "#3. Why Hugo?"
+[why_title]
+other = "Built for Teams That Ship"
+[why_desc]
+other = "Whether you're a developer optimizing your toolchain or an executive cutting costs — Hugo delivers."
+[why_tab_dev]
+other = "FOR DEVELOPERS"
+[why_tab_business]
+other = "FOR BUSINESS"
+[why_view_services]
+other = "→ View All Services"
+
+[why_dev1_title]
+other = "⚡ Sub-second builds"
+[why_dev1_desc]
+other = "Hugo compiles 10,000+ pages in under 2 seconds. No build server needed — just <code class=\"text-accent\">hugo</code> on any machine."
+[why_dev2_title]
+other = "📝 Markdown-native"
+[why_dev2_desc]
+other = "Write in Markdown with shortcodes. Git-friendly content that your whole team can version-control."
+[why_dev3_title]
+other = "🔧 Full template control"
+[why_dev3_desc]
+other = "Go templates give you loops, conditionals, partials, and pagination — without a CMS plugin ecosystem."
+[why_dev4_title]
+other = "📦 Single binary"
+[why_dev4_desc]
+other = "One <code class=\"text-accent\">hugo</code> binary, zero dependencies. Install via brew, apt, or download — runs everywhere."
+[why_dev5_title]
+other = "🔄 Hot reload"
+[why_dev5_desc]
+other = "<code class=\"text-accent\">hugo server</code> with live reload. Change a Markdown file and see the result in your browser instantly."
+[why_dev6_title]
+other = "🌐 i18n & multilingual"
+[why_dev6_desc]
+other = "Built-in internationalization. One content tree, multiple languages, automatic URL localization."
+[why_dev7_title]
+other = "📊 Build hooks & CI/CD"
+[why_dev7_desc]
+other = "One command deploys: <code class=\"text-accent\">hugo && netlify deploy</code>. Integrates with GitHub Actions, GitLab CI, Jenkins."
+[why_dev8_title]
+other = "📸 Image processing"
+[why_dev8_desc]
+other = "Resize, crop, rotate, and convert images at build time. No JavaScript needed. Responsive images out of the box."
+
+[why_biz1_title]
+other = "💰 80% lower hosting costs"
+[why_biz1_desc]
+other = "Static HTML on a CDN costs pennies. No $200/month managed WordPress hosting. No database server."
+[why_biz2_title]
+other = "🚀 100× faster page loads"
+[why_biz2_desc]
+other = "No database queries, no PHP execution. Pages load instantly — improving Core Web Vitals and SEO rankings."
+[why_biz3_title]
+other = "🔒 Zero security surface"
+[why_biz3_desc]
+other = "No WordPress plugin vulnerabilities. No Drupal module exploits. No PHP runtime to patch. Ever."
+[why_biz4_title]
+other = "♻️ Never rebuild again"
+[why_biz4_desc]
+other = "A Hugo site from 2018 still builds on today's Hugo. No dependency rot, no framework churn."
+[why_biz5_title]
+other = "📈 Better SEO out of the box"
+[why_biz5_desc]
+other = "Perfect Lighthouse scores. No render-blocking JS. Clean semantic HTML that search engines love."
+[why_biz6_title]
+other = "👩‍💻 Developer talent available"
+[why_biz6_desc]
+other = "Hugo uses Go templates — a widely-known language. No need to find niche WordPress/PHP developers."
+[why_biz7_title]
+other = "📱 True headless CMS"
+[why_biz7_desc]
+other = "Pair Hugo with Netlify CMS, Forestry, or Decap CMS. Your editors get a UI — your site stays static."
+[why_biz8_title]
+other = "📋 Audit-ready"
+[why_biz8_desc]
+other = "Every deploy is a Git commit. Full change history. Rollback in one click. Compliance teams love this."
+
+# ─── Pricing ───
+[pricing_label]
+other = "#4. Pricing"
+[pricing_title]
+other = "Simple, Transparent Plans"
+[pricing_desc]
+other = "One-time migration fee + optional monthly retainer for ongoing support. No lock-in contracts."
+[pricing_popular]
+other = "POPULAR"
+[pricing_one_time]
+other = "one-time"
+[pricing_footnote_pre]
+other = "All plans include free hosting migration assistance."
+[pricing_footnote_link]
+other = "Need something custom?"
+
+[pricing_starter_name]
+other = "Starter"
+[pricing_starter_per]
+other = "Perfect for small blogs & brochure sites"
+[pricing_starter_item1]
+other = "Up to 50 pages migrated"
+[pricing_starter_item2]
+other = "Basic Hugo theme (responsive)"
+[pricing_starter_item3]
+other = "URL mapping & 301 redirects"
+[pricing_starter_item4]
+other = "CDN deployment (Netlify/Vercel)"
+[pricing_starter_item5]
+other = "2 rounds of revisions"
+[pricing_starter_item6]
+other = "30-day post-launch support"
+[pricing_starter_cta]
+other = "Get Started"
+
+[pricing_growth_name]
+other = "Growth"
+[pricing_growth_per]
+other = "Best for content-heavy sites & news portals"
+[pricing_growth_item1]
+other = "Up to 500 pages migrated"
+[pricing_growth_item2]
+other = "Custom Hugo theme + dark mode"
+[pricing_growth_item3]
+other = "Full URL mapping + SEO audit"
+[pricing_growth_item4]
+other = "Image optimization pipeline"
+[pricing_growth_item5]
+other = "Multilingual setup (up to 3 languages)"
+[pricing_growth_item6]
+other = "CI/CD pipeline setup"
+[pricing_growth_item7]
+other = "60-day post-launch support"
+[pricing_growth_cta]
+other = "→ Most Popular"
+
+[pricing_enterprise_name]
+other = "Enterprise"
+[pricing_enterprise_per]
+other = "For large portals, e-learning & intranets"
+[pricing_enterprise_item1]
+other = "Unlimited pages migrated"
+[pricing_enterprise_item2]
+other = "Fully custom theme + design system"
+[pricing_enterprise_item3]
+other = "Custom shortcodes & components"
+[pricing_enterprise_item4]
+other = "Advanced search (Lunr/Pagefind)"
+[pricing_enterprise_item5]
+other = "Multilingual (unlimited languages)"
+[pricing_enterprise_item6]
+other = "Load testing & performance tuning"
+[pricing_enterprise_item7]
+other = "Team training session (up to 10 people)"
+[pricing_enterprise_item8]
+other = "6 months priority support"
+[pricing_enterprise_cta]
+other = "Contact Sales"
+
+# ─── About ───
+[about_label]
+other = "Who We Are"
+[about_title]
+other = "We Make Static Sites Simple"
+[about_stat1_num]
+other = "200+"
+[about_stat1_label]
+other = "Sites Migrated"
+[about_stat2_num]
+other = "99.9%"
+[about_stat2_label]
+other = "Avg. Uptime"
+[about_stat3_num]
+other = "12x"
+[about_stat3_label]
+other = "Avg. Speed Boost"
+[about_stat4_num]
+other = "100%"
+[about_stat4_label]
+other = "Client Retention"
+[about_story_p1]
+other = "<strong class=\"text-fg\">hugo://forge</strong> was founded by former WordPress agency developers who got tired of patching vulnerabilities, fighting with PHP memory limits, and explaining to clients why their \"simple blog\" needed a $200/month hosting plan."
+[about_story_p2]
+other = "We discovered Hugo in 2018 and never looked back. Since then we've helped <strong class=\"text-fg\">200+ organizations</strong> — from solo bloggers to Fortune 500 teams — break free from legacy CMS pain. We don't sell you a new CMS that you'll need to migrate away from in five years. We sell you a site that will still build and serve perfectly in a decade."
+[about_story_p3]
+other = "<em class=\"text-fg\">\"Static doesn't mean static content. Static means static infrastructure. Your content can be as dynamic as you want — it just happens to be pre-rendered, cached at the edge, and served in milliseconds.\"</em>"
+[about_values_label]
+other = "Our Values"
+[about_value1_title]
+other = "Speed Is a Feature"
+[about_value1_desc]
+other = "Every millisecond of load time costs you conversions and SEO rank. We optimize relentlessly because slow sites lose."
+[about_value2_title]
+other = "Security by Default"
+[about_value2_desc]
+other = "No PHP, no database, no plugin attack surface. Static sites are inherently secure — we never compromise that."
+[about_value3_title]
+other = "Knowledge Transfer"
+[about_value3_desc]
+other = "We don't create dependency on us. Every migration ends with training, documentation, and a workflow your team owns."
+
+# ─── Services ───
+[services_label]
+other = "What We Do"
+[services_title]
+other = "Our Services"
+[services_desc]
+other = "End-to-end migration from legacy CMS to Hugo. Every project includes a free audit, full SEO preservation, and team training."
+
+[services_s1_title]
+other = "01. Full CMS Migration"
+[services_s1_desc]
+other = "Complete migration from WordPress, Drupal, Joomla, or any PHP-based CMS to Hugo. We extract every post, page, media file, user comment, and metadata field — converting them to clean Markdown with front matter. Your content structure, taxonomies, and relationships are preserved."
+[services_s1_item1]
+other = "Automated export scripts for all major CMS platforms"
+[services_s1_item2]
+other = "Custom content mapping for non-standard post types"
+[services_s1_item3]
+other = "Media library migration with image optimization"
+[services_s1_item4]
+other = "User accounts & permission mapping (if needed)"
+[services_s1_item5]
+other = "Database-to-Markdown conversion with zero data loss"
+
+[services_s2_title]
+other = "02. Theme Development"
+[services_s2_desc]
+other = "We build lightweight, responsive Hugo themes from scratch. No bloated frameworks, no jQuery — just modern CSS Grid, semantic HTML, and Go templates. Every theme scores 95+ on Lighthouse out of the box."
+[services_s2_item1]
+other = "Custom design aligned with your brand guidelines"
+[services_s2_item2]
+other = "Fully responsive: mobile, tablet, desktop"
+[services_s2_item3]
+other = "Dark mode support included"
+[services_s2_item4]
+other = "Accessible (WCAG 2.1 AA compliant)"
+[services_s2_item5]
+other = "Image lazy loading & responsive image sets"
+[services_s2_item6]
+other = "Built-in SEO metadata (Open Graph, Twitter Cards, JSON-LD)"
+
+[services_s3_title]
+other = "03. Performance Audit & Optimization"
+[services_s3_desc]
+other = "Already on Hugo or considering it? We'll audit your current site's performance, identify bottlenecks, and implement every optimization Hugo offers — from image processing pipelines to critical CSS inlining."
+[services_s3_item1]
+other = "Full Lighthouse & Web Vitals analysis"
+[services_s3_item2]
+other = "Image CDN & AVIF/WebP conversion"
+[services_s3_item3]
+other = "CSS/JS bundle splitting & minification"
+[services_s3_item4]
+other = "Preload / prefetch strategy"
+[services_s3_item5]
+other = "Cache policy & CDN configuration"
+[services_s3_item6]
+other = "Before/after performance report"
+
+[services_s4_title]
+other = "04. Ongoing Support & Training"
+[services_s4_desc]
+other = "We don't just hand over the keys — we make sure your team can run the site independently. Includes workflow training, content management setup (headless CMS optional), and a priority support SLA."
+[services_s4_item1]
+other = "Team workshop (up to 10 people, remote or on-site)"
+[services_s4_item2]
+other = "Detailed documentation tailored to your setup"
+[services_s4_item3]
+other = "CI/CD pipeline training (Git-based deployments)"
+[services_s4_item4]
+other = "Headless CMS onboarding (Netlify CMS, Decap, etc.)"
+[services_s4_item5]
+other = "Priority Slack/email support"
+[services_s4_item6]
+other = "Monthly performance reports"
+
+# ─── Contact ───
+[contact_label]
+other = "Get In Touch"
+[contact_title]
+other = "Start Your Migration Today"
+[contact_desc]
+other = "Fill out the form and we'll get back to you within 24 hours with a free audit proposal. No commitment, no sales pitch — just honest advice."
+
+[contact_name]
+other = "Your Name"
+[contact_name_ph]
+other = "e.g. Alex Johnson"
+[contact_email]
+other = "Email Address"
+[contact_email_ph]
+other = "alex@company.com"
+[contact_company]
+other = "Company / Site"
+[contact_company_ph]
+other = "Your current URL or company name"
+[contact_cms]
+other = "Current CMS"
+[contact_cms_select]
+other = "— Select —"
+[contact_cms_other]
+other = "Other PHP CMS"
+[contact_cms_custom]
+other = "Custom / Other"
+[contact_pages]
+other = "Approximate number of pages"
+[contact_pages_ph]
+other = "e.g. 150"
+[contact_message]
+other = "Tell us about your project"
+[contact_message_ph]
+other = "Goals, timelines, specific requirements, anything we should know..."
+[contact_submit]
+other = "→ Submit Request"
+
+[contact_info_title]
+other = "Contact Information"
+[contact_info_email]
+other = "Email:"
+[contact_info_response]
+other = "Response time:"
+[contact_info_response_val]
+other = "Within 24 hours, usually faster"
+[contact_info_office]
+other = "Office:"
+[contact_info_hours]
+other = "Hours:"
+[contact_info_hours_val]
+other = "Mon–Fri, 9:00 AM – 6:00 PM PT"
+[contact_info_work_with]
+other = "We work with:"
+[contact_info_work_with_val]
+other = "Agencies • Startups • Enterprises • Non-profits • Governments"
+
+# ─── CTA (final) ───
+[cta_label]
+other = "Ready?"
+[cta_title]
+other = "Your Legacy CMS Is Costing You Speed, Security, and Money."
+[cta_desc]
+other = "Join hundreds of companies that have made the switch. Free migration audit with every inquiry."
+[cta_btn_audit]
+other = "→ Get Your Free Audit"
+[cta_btn_about]
+other = "Learn About Us"
+
+# ─── Footer ───
+[footer_desc]
+other = "Fast static site migrations from WordPress, Drupal, and other legacy CMS platforms. We make your site 100× faster in weeks, not months."
+[footer_built]
+other = "Built with Hugo · Hosted on Netlify · No database required"
+[footer_col_pages]
+other = "Pages"
+[footer_col_services]
+other = "Services"
+[footer_col_contact]
+other = "Contact"
+[footer_link_home]
+other = "Home"
+[footer_link_services]
+other = "Services"
+[footer_link_about]
+other = "About"
+[footer_link_contact]
+other = "Contact"
+[footer_link_full_migration]
+other = "Full Migration"
+[footer_link_theme_dev]
+other = "Theme Development"
+[footer_link_perf_audit]
+other = "Performance Audit"
+[footer_link_support]
+other = "Ongoing Support"
+[footer_link_book]
+other = "Book a Call"
+[footer_link_audit]
+other = "Free Audit"
+[footer_rights]
+other = "All rights reserved."
+[footer_trademark]
+other = "WordPress is a trademark of WordPress Foundation. Drupal is a trademark of Dries Buytaert."

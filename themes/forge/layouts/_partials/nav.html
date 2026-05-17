@@ -1,0 +1,25 @@
+<nav class="sticky top-0 z-50 bg-bg/90 backdrop-blur-md border-b border-border">
+  <div class="max-w-[1200px] mx-auto px-6 flex items-center justify-between h-[60px]">
+    <a href="{{ "/" | relLangURL }}" class="text-xl font-bold text-fg-heading tracking-tight">
+      &gt;_ <span class="text-accent">hugo://forge</span>
+    </a>
+    <div id="navLinks" class="hidden md:flex items-center gap-8">
+      <a href="{{ "/#home" | relLangURL }}" class="text-sm text-muted hover:text-fg transition-colors">{{ i18n "nav_home" }}</a>
+      <a href="{{ "/#services" | relLangURL }}" class="text-sm text-muted hover:text-fg transition-colors">{{ i18n "nav_services" }}</a>
+      <a href="{{ "/#about" | relLangURL }}" class="text-sm text-muted hover:text-fg transition-colors">{{ i18n "nav_about" }}</a>
+      <a href="{{ "/#contact" | relLangURL }}" class="text-sm text-muted hover:text-fg transition-colors">{{ i18n "nav_contact" }}</a>
+      <a href="{{ "/#contact" | relLangURL }}" class="bg-accent text-bg px-[18px] py-2 rounded-lg text-[13px] font-bold hover:opacity-85 transition-opacity">{{ i18n "nav_cta" }}</a>
+
+      <div class="flex items-center gap-2 ml-2 border-l border-border pl-4">
+        <span class="text-xs text-accent font-bold uppercase">{{ .Site.Language.Lang }}</span>
+        {{ range .Translations }}
+          <a href="{{ .Permalink }}" hreflang="{{ .Language.Lang }}" class="text-xs text-muted hover:text-accent transition-colors uppercase font-bold">{{ .Language.Lang }}</a>
+        {{ end }}
+      </div>
+    </div>
+    <button
+      class="md:hidden bg-transparent border border-border text-fg font-mono text-xl px-3 py-1.5 rounded-sm cursor-pointer"
+      onclick="document.getElementById('navLinks').classList.toggle('hidden'); document.getElementById('navLinks').classList.toggle('flex'); document.getElementById('navLinks').classList.toggle('flex-col'); document.getElementById('navLinks').classList.toggle('absolute'); document.getElementById('navLinks').classList.toggle('top-[60px]'); document.getElementById('navLinks').classList.toggle('left-0'); document.getElementById('navLinks').classList.toggle('right-0'); document.getElementById('navLinks').classList.toggle('bg-surface'); document.getElementById('navLinks').classList.toggle('border-b'); document.getElementById('navLinks').classList.toggle('border-border'); document.getElementById('navLinks').classList.toggle('p-4'); document.getElementById('navLinks').classList.toggle('gap-3');"
+      aria-label="Toggle menu">☰</button>
+  </div>
+</nav>
