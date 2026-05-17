@@ -4,43 +4,20 @@ on:
   push:
     branches:
       - main
-  pull_request:
-    branches:
-      - main
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: true
-
-permissions:
-  contents: read
-  deployments: write
-
-env:
-  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
+      - name: Checkout
         uses: actions/checkout@v4
         with:
-          submodules: true
           fetch-depth: 0
-
-      - name: Resolve and validate deploy branch
-        id: branch
-        env:
-          REF: ${{ github.ref_name }}
-        shell: bash
-        run: |
-          if [[ ! "$REF" =~ ^[A-Za-z0-9._/-]+$ ]]; then
-            echo "::error::Refusing to deploy: ref name '$REF' contains unexpected characters"
-            exit 1
-          fi
-          echo "name=$REF" >> "$GITHUB_OUTPUT"
 
       - name: Setup Node.js 24
         uses: actions/setup-node@v4
@@ -56,29 +33,19 @@ jobs:
           hugo-version: 'latest'
           extended: true
 
-      - name: Cache Hugo resources
-        uses: actions/cache@v4
-        with:
-          path: resources
-          key: ${{ runner.os }}-hugo-resources-${{ hashFiles('content/**', 'assets/**') }}
-          restore-keys: |
-            ${{ runner.os }}-hugo-resources-
-
-      - name: Install Node dependencies
+      - name: Install dependencies
         run: pnpm install --no-frozen-lockfile
 
-      - name: Build Hugo site
+      - name: Build
         run: hugo --gc --minify
         env:
           HUGO_ENVIRONMENT: production
           TZ: Europe/Oslo
 
-      - name: Install Wrangler
-        run: npm install -g wrangler
-
       - name: Deploy to Cloudflare Pages
-        env:
-          CLOUDFLARE_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
-          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
-          BRANCH: ${{ steps.branch.outputs.name }}
-        run: wrangler pages deploy ./public --project-name=hugoforge --branch="$BRANCH"
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CF_API_TOKEN }}
+          accountId: ${{ secrets.CF_ACCOUNT_ID }}
+          packageManager: npm
+          command: pages deploy ./public --project-name=hugoforge --branch=main
