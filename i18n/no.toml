@@ -370,21 +370,26 @@ other = "→ Send forespørsel"
 
 [contact_info_title]
 other = "Kontaktinformasjon"
-[contact_info_email]
-other = "E-post:"
-[contact_info_response]
-other = "Responstid:"
-[contact_info_response_val]
+
+[contact_email_label]
+other = "E-post"
+[contact_email_value]
+other = "post@hugoforge.com"
+[contact_response_label]
+other = "Responstid"
+[contact_response]
 other = "Innen 24 timer, vanligvis raskere"
-[contact_info_office]
-other = "Kontor:"
-[contact_info_hours]
-other = "Åpningstider:"
-[contact_info_hours_val]
-other = "Man–fre, 09.00 – 18.00 PT"
-[contact_info_work_with]
-other = "Vi jobber med:"
-[contact_info_work_with_val]
+[contact_office_label]
+other = "Kontor"
+[contact_office]
+other = "Bergen, Norge"
+[contact_hours_label]
+other = "Åpningstider"
+[contact_hours]
+other = "Man–fre, 07.00 – 17.00 CET"
+[contact_works_with_label]
+other = "Vi jobber med"
+[contact_works_with]
 other = "Byråer • Startups • Bedrifter • Frivillige org. • Offentlig sektor"
 
 # ─── CTA (final) ───

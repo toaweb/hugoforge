@@ -27,7 +27,7 @@
       <div>
         <h4 class="text-[13px] font-bold text-fg-heading uppercase tracking-[0.08em] mb-3.5">{{ i18n "footer_col_contact" }}</h4>
         <div class="flex flex-col gap-2.5">
-          <a href="mailto:hello@hugoforge.com" class="text-[13px] text-muted hover:text-accent">hello@hugoforge.com</a>
+          <a href="mailto:{{ i18n "contact_email_value" }}" class="text-[13px] text-muted hover:text-accent">{{ i18n "contact_email_value" }}</a>
           <a href="{{ "/#contact" | relLangURL }}" class="text-[13px] text-muted hover:text-accent">{{ i18n "footer_link_book" }}</a>
           <a href="{{ "/#contact" | relLangURL }}" class="text-[13px] text-muted hover:text-accent">{{ i18n "footer_link_audit" }}</a>
         </div>
