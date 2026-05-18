@@ -4,40 +4,48 @@
     <h2 class="text-2xl md:text-4xl font-bold text-fg-heading mb-4">{{ i18n "pricing_title" }}</h2>
     <p class="text-muted max-w-[640px] mb-12">{{ i18n "pricing_desc" }}</p>
 
+    {{ $lang := .Language.Lang }}
     <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-      <div class="bg-surface border border-border rounded-xl p-9 flex flex-col hover:border-muted transition-colors">
-        <h3 class="text-lg font-bold text-fg-heading mb-1">{{ i18n "pricing_starter_name" }}</h3>
-        <p class="text-[34px] font-bold text-fg-heading mt-4 mb-6">{{ i18n "pricing_starter_price" }}</p>
-        <ul class="flex-1 flex flex-col gap-2.5 mb-6">
-          {{ range $i := seq 1 7 }}
-            <li class="text-[13px] text-muted pl-6 relative"><span class="absolute left-0 text-accent font-bold">✓</span>{{ i18n (printf "pricing_starter_item%d" $i) }}</li>
-          {{ end }}
-        </ul>
-        <a href="{{ "/#contact" | relLangURL }}" class="inline-flex items-center justify-center w-full gap-2 px-7 py-3 rounded-lg font-mono text-[15px] font-bold bg-transparent border border-border text-fg hover:border-fg hover:text-fg-heading transition-colors">{{ i18n "pricing_starter_cta" }}</a>
-      </div>
+      {{ range site.Data.pricing.packages }}
+        {{ $name := index .name $lang }}
+        {{ $price := index .price $lang }}
+        {{ $features := index .features $lang }}
+        {{ $delivery := index .delivery $lang }}
+        {{ $cta := i18n (printf "pricing_%s_cta" .id) }}
 
-      <div class="relative bg-surface border border-accent rounded-xl p-9 flex flex-col">
-        <span class="absolute -top-3 left-1/2 -translate-x-1/2 bg-accent text-bg text-[11px] font-bold px-3.5 py-1 rounded-full tracking-[0.08em]">{{ i18n "pricing_popular" }}</span>
-        <h3 class="text-lg font-bold text-fg-heading mb-1">{{ i18n "pricing_pro_name" }}</h3>
-        <p class="text-[34px] font-bold text-fg-heading mt-4 mb-6">{{ i18n "pricing_pro_price" }}</p>
-        <ul class="flex-1 flex flex-col gap-2.5 mb-6">
-          {{ range $i := seq 1 8 }}
-            <li class="text-[13px] text-muted pl-6 relative"><span class="absolute left-0 text-accent font-bold">✓</span>{{ i18n (printf "pricing_pro_item%d" $i) }}</li>
-          {{ end }}
-        </ul>
-        <a href="{{ "/#contact" | relLangURL }}" class="inline-flex items-center justify-center w-full gap-2 px-7 py-3 rounded-lg font-mono text-[15px] font-bold bg-accent text-bg hover:opacity-85 transition-opacity">{{ i18n "pricing_pro_cta" }}</a>
-      </div>
-
-      <div class="bg-surface border border-border rounded-xl p-9 flex flex-col hover:border-muted transition-colors">
-        <h3 class="text-lg font-bold text-fg-heading mb-1">{{ i18n "pricing_enterprise_name" }}</h3>
-        <p class="text-[34px] font-bold text-fg-heading mt-4 mb-6">{{ i18n "pricing_enterprise_price" }}</p>
-        <ul class="flex-1 flex flex-col gap-2.5 mb-6">
-          {{ range $i := seq 1 7 }}
-            <li class="text-[13px] text-muted pl-6 relative"><span class="absolute left-0 text-accent font-bold">✓</span>{{ i18n (printf "pricing_enterprise_item%d" $i) }}</li>
-          {{ end }}
-        </ul>
-        <a href="{{ "/#contact" | relLangURL }}" class="inline-flex items-center justify-center w-full gap-2 px-7 py-3 rounded-lg font-mono text-[15px] font-bold bg-transparent border border-border text-fg hover:border-fg hover:text-fg-heading transition-colors">{{ i18n "pricing_enterprise_cta" }}</a>
-      </div>
+        {{ if .featured }}
+          <div class="relative bg-surface border border-accent rounded-xl p-9 flex flex-col">
+            <span class="absolute -top-3 left-1/2 -translate-x-1/2 bg-accent text-bg text-[11px] font-bold px-3.5 py-1 rounded-full tracking-[0.08em]">{{ i18n "pricing_popular" }}</span>
+            <h3 class="text-lg font-bold text-fg-heading mb-1">{{ $name }}</h3>
+            <p class="text-[34px] font-bold text-fg-heading mt-4 mb-6">{{ $price }}</p>
+            <ul class="flex-1 flex flex-col gap-2.5 mb-4">
+              {{ range $features }}
+                <li class="text-[13px] text-muted pl-6 relative"><span class="absolute left-0 text-accent font-bold">✓</span>{{ . }}</li>
+              {{ end }}
+            </ul>
+            <div class="border-t border-border pt-3 mb-6 text-[13px] text-muted flex items-start gap-2">
+              <span class="text-accent shrink-0">⏱</span>
+              <span><strong class="text-fg font-bold">{{ i18n "pricing_delivery_label" }}:</strong> {{ $delivery }}</span>
+            </div>
+            <a href="{{ "/#contact" | relLangURL }}" class="inline-flex items-center justify-center w-full gap-2 px-7 py-3 rounded-lg font-mono text-[15px] font-bold bg-accent text-bg hover:opacity-85 transition-opacity">{{ $cta }}</a>
+          </div>
+        {{ else }}
+          <div class="bg-surface border border-border rounded-xl p-9 flex flex-col hover:border-muted transition-colors">
+            <h3 class="text-lg font-bold text-fg-heading mb-1">{{ $name }}</h3>
+            <p class="text-[34px] font-bold text-fg-heading mt-4 mb-6">{{ $price }}</p>
+            <ul class="flex-1 flex flex-col gap-2.5 mb-4">
+              {{ range $features }}
+                <li class="text-[13px] text-muted pl-6 relative"><span class="absolute left-0 text-accent font-bold">✓</span>{{ . }}</li>
+              {{ end }}
+            </ul>
+            <div class="border-t border-border pt-3 mb-6 text-[13px] text-muted flex items-start gap-2">
+              <span class="text-accent shrink-0">⏱</span>
+              <span><strong class="text-fg font-bold">{{ i18n "pricing_delivery_label" }}:</strong> {{ $delivery }}</span>
+            </div>
+            <a href="{{ "/#contact" | relLangURL }}" class="inline-flex items-center justify-center w-full gap-2 px-7 py-3 rounded-lg font-mono text-[15px] font-bold bg-transparent border border-border text-fg hover:border-fg hover:text-fg-heading transition-colors">{{ $cta }}</a>
+          </div>
+        {{ end }}
+      {{ end }}
     </div>
 
     <p class="mt-8 text-center text-[13px] text-muted">{{ i18n "pricing_footnote_pre" }} <a href="{{ "/#contact" | relLangURL }}" class="text-accent hover:underline">{{ i18n "pricing_footnote_link" }}</a></p>

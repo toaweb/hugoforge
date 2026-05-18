@@ -195,6 +195,8 @@ other = "📋 Revisjonsklar"
 other = "Hver deploy er en Git-commit. Full endringshistorikk. Tilbakerulling med ett klikk. Compliance-team elsker dette."
 
 # ─── Pricing ───
+# Pris, navn, funksjoner og leveringstid per pakke ligger nå i data/pricing.yaml.
+# Kun seksjonsstruktur og CTA-knappetekster blir værende i i18n.
 [pricing_label]
 other = "#4. Priser"
 [pricing_title]
@@ -203,73 +205,17 @@ other = "Enkel og transparent prising"
 other = "Engangs migreringshonorar + valgfri månedlig avtale for løpende støtte. Ingen bindingstid."
 [pricing_popular]
 other = "POPULÆR"
+[pricing_delivery_label]
+other = "Leveringstid"
 [pricing_footnote_pre]
 other = "Alle planer inkluderer gratis hjelp med hosting-migrering."
 [pricing_footnote_link]
 other = "Trenger du noe spesielt?"
 
-[pricing_starter_name]
-other = "Starter"
-[pricing_starter_price]
-other = "kr 4 990"
-[pricing_starter_item1]
-other = "Migrering av innhold (sider + bloggposter)"
-[pricing_starter_item2]
-other = "Eksisterende design bevart i Hugo-tema"
-[pricing_starter_item3]
-other = "Norsk eller engelsk"
-[pricing_starter_item4]
-other = "Cloudflare Pages-deploy (gratis hosting)"
-[pricing_starter_item5]
-other = "301-redirects og SEO-bevaring"
-[pricing_starter_item6]
-other = "Sitemap + robots.txt"
-[pricing_starter_item7]
-other = "Leveringstid: 5–7 dager"
 [pricing_starter_cta]
 other = "Kom i gang"
-
-[pricing_pro_name]
-other = "Profesjonell"
-[pricing_pro_price]
-other = "kr 12 990"
-[pricing_pro_item1]
-other = "Alt i Starter"
-[pricing_pro_item2]
-other = "Nytt custom Hugo-tema"
-[pricing_pro_item3]
-other = "Norsk + Engelsk (i18n)"
-[pricing_pro_item4]
-other = "Full SEO (OG, JSON-LD, hreflang, Twitter Card)"
-[pricing_pro_item5]
-other = "Kontaktskjema-integrasjon"
-[pricing_pro_item6]
-other = "Google Analytics / Plausible-oppsett"
-[pricing_pro_item7]
-other = "30 dagers support etter lansering"
-[pricing_pro_item8]
-other = "Leveringstid: 2–3 uker"
-[pricing_pro_cta]
+[pricing_professional_cta]
 other = "→ Mest populær"
-
-[pricing_enterprise_name]
-other = "Bedrift"
-[pricing_enterprise_price]
-other = "kr 29 990+"
-[pricing_enterprise_item1]
-other = "Alt i Profesjonell"
-[pricing_enterprise_item2]
-other = "Fullstendig ny design fra scratch"
-[pricing_enterprise_item3]
-other = "Headless CMS-integrasjon (Decap CMS)"
-[pricing_enterprise_item4]
-other = "Automatisert CI/CD pipeline (GitHub Actions)"
-[pricing_enterprise_item5]
-other = "Ytelsesoptimalisering (Core Web Vitals 90+)"
-[pricing_enterprise_item6]
-other = "Skreddersydd pris basert på omfang"
-[pricing_enterprise_item7]
-other = "Leveringstid: 4–6 uker"
 [pricing_enterprise_cta]
 other = "Kontakt salg"
 

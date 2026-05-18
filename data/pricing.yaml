@@ -1,0 +1,83 @@
+packages:
+  - id: starter
+    featured: false
+    price:
+      no: "kr 4 990"
+      en: "$499"
+    name:
+      no: "Starter"
+      en: "Starter"
+    delivery:
+      no: "5–7 dager"
+      en: "5–7 days"
+    features:
+      no:
+        - "Migrering av innhold (sider + bloggposter)"
+        - "Eksisterende design bevart i Hugo-tema"
+        - "Norsk eller engelsk"
+        - "Cloudflare Pages-deploy (gratis hosting)"
+        - "301-redirects og SEO-bevaring"
+        - "Sitemap + robots.txt"
+      en:
+        - "Content migration (pages + blog posts)"
+        - "Existing design preserved in Hugo theme"
+        - "Norwegian or English"
+        - "Cloudflare Pages deploy (free hosting)"
+        - "301 redirects and SEO preservation"
+        - "Sitemap + robots.txt"
+
+  - id: professional
+    featured: true
+    price:
+      no: "kr 12 990"
+      en: "$1,299"
+    name:
+      no: "Profesjonell"
+      en: "Professional"
+    delivery:
+      no: "2–3 uker"
+      en: "2–3 weeks"
+    features:
+      no:
+        - "Alt i Starter"
+        - "Nytt custom Hugo-tema"
+        - "Norsk + Engelsk (i18n)"
+        - "Full SEO (OG, JSON-LD, hreflang, Twitter Card)"
+        - "Kontaktskjema-integrasjon"
+        - "Google Analytics / Plausible-oppsett"
+        - "30 dagers support etter lansering"
+      en:
+        - "Everything in Starter"
+        - "New custom Hugo theme"
+        - "Norwegian + English (i18n)"
+        - "Full SEO (OG, JSON-LD, hreflang, Twitter Card)"
+        - "Contact form integration"
+        - "Google Analytics / Plausible setup"
+        - "30 days post-launch support"
+
+  - id: enterprise
+    featured: false
+    price:
+      no: "kr 29 990+"
+      en: "$2,999+"
+    name:
+      no: "Bedrift"
+      en: "Enterprise"
+    delivery:
+      no: "4–6 uker"
+      en: "4–6 weeks"
+    features:
+      no:
+        - "Alt i Profesjonell"
+        - "Fullstendig ny design fra scratch"
+        - "Headless CMS-integrasjon (Decap CMS)"
+        - "Automatisert CI/CD pipeline (GitHub Actions)"
+        - "Ytelsesoptimalisering (Core Web Vitals 90+)"
+        - "Skreddersydd pris basert på omfang"
+      en:
+        - "Everything in Professional"
+        - "Complete new design from scratch"
+        - "Headless CMS integration (Decap CMS)"
+        - "Automated CI/CD pipeline (GitHub Actions)"
+        - "Performance optimization (Core Web Vitals 90+)"
+        - "Custom pricing based on scope"

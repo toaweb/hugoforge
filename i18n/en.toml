@@ -195,6 +195,8 @@ other = "📋 Audit-ready"
 other = "Every deploy is a Git commit. Full change history. Rollback in one click. Compliance teams love this."
 
 # ─── Pricing ───
+# Per-tier pricing, names, features, and delivery times now live in data/pricing.yaml.
+# Only section structure and CTA button labels stay in i18n.
 [pricing_label]
 other = "#4. Pricing"
 [pricing_title]
@@ -203,73 +205,17 @@ other = "Simple, Transparent Plans"
 other = "One-time migration fee + optional monthly retainer for ongoing support. No lock-in contracts."
 [pricing_popular]
 other = "POPULAR"
+[pricing_delivery_label]
+other = "Delivery"
 [pricing_footnote_pre]
 other = "All plans include free hosting migration assistance."
 [pricing_footnote_link]
 other = "Need something custom?"
 
-[pricing_starter_name]
-other = "Starter"
-[pricing_starter_price]
-other = "NOK 4,990"
-[pricing_starter_item1]
-other = "Content migration (pages + blog posts)"
-[pricing_starter_item2]
-other = "Existing design preserved in Hugo theme"
-[pricing_starter_item3]
-other = "Norwegian or English"
-[pricing_starter_item4]
-other = "Cloudflare Pages deploy (free hosting)"
-[pricing_starter_item5]
-other = "301 redirects and SEO preservation"
-[pricing_starter_item6]
-other = "Sitemap + robots.txt"
-[pricing_starter_item7]
-other = "Delivery: 5–7 days"
 [pricing_starter_cta]
 other = "Get Started"
-
-[pricing_pro_name]
-other = "Professional"
-[pricing_pro_price]
-other = "NOK 12,990"
-[pricing_pro_item1]
-other = "Everything in Starter"
-[pricing_pro_item2]
-other = "New custom Hugo theme"
-[pricing_pro_item3]
-other = "Norwegian + English (i18n)"
-[pricing_pro_item4]
-other = "Full SEO (OG, JSON-LD, hreflang, Twitter Card)"
-[pricing_pro_item5]
-other = "Contact form integration"
-[pricing_pro_item6]
-other = "Google Analytics / Plausible setup"
-[pricing_pro_item7]
-other = "30 days post-launch support"
-[pricing_pro_item8]
-other = "Delivery: 2–3 weeks"
-[pricing_pro_cta]
+[pricing_professional_cta]
 other = "→ Most Popular"
-
-[pricing_enterprise_name]
-other = "Enterprise"
-[pricing_enterprise_price]
-other = "NOK 29,990+"
-[pricing_enterprise_item1]
-other = "Everything in Professional"
-[pricing_enterprise_item2]
-other = "Complete new design from scratch"
-[pricing_enterprise_item3]
-other = "Headless CMS integration (Decap CMS)"
-[pricing_enterprise_item4]
-other = "Automated CI/CD pipeline (GitHub Actions)"
-[pricing_enterprise_item5]
-other = "Performance optimization (Core Web Vitals 90+)"
-[pricing_enterprise_item6]
-other = "Custom pricing based on scope"
-[pricing_enterprise_item7]
-other = "Delivery: 4–6 weeks"
 [pricing_enterprise_cta]
 other = "Contact Sales"
 
