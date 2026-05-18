@@ -224,42 +224,36 @@ other = "Kontakt salg"
 other = "Hvem vi er"
 [about_title]
 other = "Vi gjør statiske nettsider enkelt"
-[about_stat1_num]
-other = "200+"
+
+[about_founded]
+other = "hugo://forge ble grunnlagt av Tor, en webutvikler og designer med over 20 års erfaring — siden 2001."
+[about_p1]
+other = "Gjennom to tiår har han bygget og administrert utallige WordPress-sider for bedrifter av alle størrelser, brukt Elementor, Divi og andre sidebyggere, og brukt utallige timer på å finne rask hosting og stable caching-plugins bare for å få lastetiden ned på et akseptabelt nivå."
+[about_p2]
+other = "Konklusjonen etter 20 år er enkel: WordPress er et fantastisk verktøy — men kun om du trenger å publisere nytt innhold hver eneste dag. For de aller fleste bedrifter er det ikke tilfellet."
+[about_p3]
+other = "En standard bedriftsside med forside og 3–5 undersider har ingenting å tjene på WordPress. Du betaler mer for hosting, sidene dine er tregere, og sikkerhetsrisikoen er langt høyere enn nødvendig. Har du delt hosting — det vanligste valget — kan siden din til og med time ut i høytrafikkperioder, fordi WordPress er ressurskrevende av natur."
+[about_p4]
+other = "Hugo snur dette på hodet. Siden genereres én gang og leveres som ren HTML fra Cloudflares globale nettverk. Ingen database. Ingen PHP. Ingen plugins å patche. Resultatet er sider som laster på millisekunder, tåler millioner av besøkende uten å svette, og faktisk kan hostes gratis."
+[about_quote]
+other = "Vi selger deg ikke et nytt CMS du må migrere bort fra om fem år. Vi selger deg et nettsted som fortsatt bygger og leverer perfekt om ti år."
+
+[about_stat1_value]
+other = "20+"
 [about_stat1_label]
-other = "Migrerte nettsteder"
-[about_stat2_num]
-other = "99,9 %"
+other = "År erfaring"
+[about_stat2_value]
+other = "200+"
 [about_stat2_label]
-other = "Snitt-oppetid"
-[about_stat3_num]
-other = "12x"
+other = "Prosjekter levert"
+[about_stat3_value]
+other = "2001"
 [about_stat3_label]
-other = "Snitt-hastighetsøkning"
-[about_stat4_num]
-other = "100 %"
+other = "Startet med web"
+[about_stat4_value]
+other = "0 kr"
 [about_stat4_label]
-other = "Kundelojalitet"
-[about_story_p1]
-other = "<strong class=\"text-fg\">hugo://forge</strong> ble grunnlagt av tidligere WordPress-byråutviklere som var lei av å patche sårbarheter, kjempe med PHP-minnegrenser, og forklare kunder hvorfor «den enkle bloggen» trengte en hostingplan til 2000 kr/mnd."
-[about_story_p2]
-other = "Vi oppdaget Hugo i 2018 og har aldri sett oss tilbake. Siden har vi hjulpet <strong class=\"text-fg\">200+ organisasjoner</strong> — fra soloblogger til Fortune 500-team — med å bryte fri fra gammel CMS-smerte. Vi selger deg ikke et nytt CMS du må migrere bort fra om fem år. Vi selger deg et nettsted som fortsatt bygger og leverer perfekt om ti år."
-[about_story_p3]
-other = "<em class=\"text-fg\">«Statisk betyr ikke statisk innhold. Statisk betyr statisk infrastruktur. Innholdet ditt kan være så dynamisk du vil — det er bare ferdigrendret, cachet i kanten, og levert på millisekunder.»</em>"
-[about_values_label]
-other = "Våre verdier"
-[about_value1_title]
-other = "Hastighet er en funksjon"
-[about_value1_desc]
-other = "Hvert millisekund med lastetid koster deg konverteringer og SEO-rangering. Vi optimaliserer hardt fordi trege nettsteder taper."
-[about_value2_title]
-other = "Sikkerhet som standard"
-[about_value2_desc]
-other = "Ingen PHP, ingen database, ingen plugin-angrepsflate. Statiske nettsteder er trygge i utgangspunktet — vi går aldri på kompromiss med det."
-[about_value3_title]
-other = "Kunnskapsoverføring"
-[about_value3_desc]
-other = "Vi skaper ikke avhengighet av oss. Hver migrering ender med opplæring, dokumentasjon, og en arbeidsflyt teamet ditt eier."
+other = "Hostingkost på Cloudflare"
 
 # ─── Services ───
 [services_label]

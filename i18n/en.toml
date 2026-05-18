@@ -224,42 +224,36 @@ other = "Contact Sales"
 other = "Who We Are"
 [about_title]
 other = "We Make Static Sites Simple"
-[about_stat1_num]
-other = "200+"
+
+[about_founded]
+other = "hugo://forge was founded by Tor, a web developer and designer with over 20 years of experience — since 2001."
+[about_p1]
+other = "Over two decades, he has built and managed countless WordPress sites for businesses of all sizes, worked with Elementor, Divi, and other page builders, and spent countless hours hunting for fast hosting and stacking caching plugins just to get load times down to an acceptable level."
+[about_p2]
+other = "After 20 years, the conclusion is simple: WordPress is a great tool — but only if you need to publish new content every single day. For most businesses, that's simply not the case."
+[about_p3]
+other = "A standard business site with a homepage and 3–5 subpages has nothing to gain from WordPress. You pay more for hosting, your pages are slower, and the security risk is far higher than necessary. If you're on shared hosting — the most common choice — your site can even time out during peak traffic, because WordPress is inherently resource-heavy."
+[about_p4]
+other = "Hugo flips this entirely. The site is generated once and delivered as pure HTML from Cloudflare's global network. No database. No PHP. No plugins to patch. The result is pages that load in milliseconds, handle millions of visitors without breaking a sweat, and can actually be hosted for free."
+[about_quote]
+other = "We're not selling you a new CMS you'll need to migrate away from in five years. We're selling you a website that still builds and delivers perfectly in ten years."
+
+[about_stat1_value]
+other = "20+"
 [about_stat1_label]
-other = "Sites Migrated"
-[about_stat2_num]
-other = "99.9%"
+other = "Years experience"
+[about_stat2_value]
+other = "200+"
 [about_stat2_label]
-other = "Avg. Uptime"
-[about_stat3_num]
-other = "12x"
+other = "Projects delivered"
+[about_stat3_value]
+other = "2001"
 [about_stat3_label]
-other = "Avg. Speed Boost"
-[about_stat4_num]
-other = "100%"
+other = "Started in web"
+[about_stat4_value]
+other = "Free"
 [about_stat4_label]
-other = "Client Retention"
-[about_story_p1]
-other = "<strong class=\"text-fg\">hugo://forge</strong> was founded by former WordPress agency developers who got tired of patching vulnerabilities, fighting with PHP memory limits, and explaining to clients why their \"simple blog\" needed a $200/month hosting plan."
-[about_story_p2]
-other = "We discovered Hugo in 2018 and never looked back. Since then we've helped <strong class=\"text-fg\">200+ organizations</strong> — from solo bloggers to Fortune 500 teams — break free from legacy CMS pain. We don't sell you a new CMS that you'll need to migrate away from in five years. We sell you a site that will still build and serve perfectly in a decade."
-[about_story_p3]
-other = "<em class=\"text-fg\">\"Static doesn't mean static content. Static means static infrastructure. Your content can be as dynamic as you want — it just happens to be pre-rendered, cached at the edge, and served in milliseconds.\"</em>"
-[about_values_label]
-other = "Our Values"
-[about_value1_title]
-other = "Speed Is a Feature"
-[about_value1_desc]
-other = "Every millisecond of load time costs you conversions and SEO rank. We optimize relentlessly because slow sites lose."
-[about_value2_title]
-other = "Security by Default"
-[about_value2_desc]
-other = "No PHP, no database, no plugin attack surface. Static sites are inherently secure — we never compromise that."
-[about_value3_title]
-other = "Knowledge Transfer"
-[about_value3_desc]
-other = "We don't create dependency on us. Every migration ends with training, documentation, and a workflow your team owns."
+other = "Hosting on Cloudflare"
 
 # ─── Services ───
 [services_label]
