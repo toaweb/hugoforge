@@ -1,0 +1,45 @@
+categories:
+- News
+authors:
+- Tor
+edit_zones:
+- path: content/posts
+  label: Bloggposter
+  type: markdown
+- path: content/pages
+  label: Sider
+  type: markdown
+- path: data
+  label: Data-filer
+  type: data
+shortcodes:
+- name: youtube
+  label: YouTube Video
+  icon: player-play
+  fields:
+  - name: id
+    label: Video ID
+    type: string
+- name: figure
+  label: Bilde med tekst
+  icon: photo
+  fields:
+  - name: src
+    label: Bilde-URL
+    type: string
+  - name: alt
+    label: Alt-tekst
+    type: string
+  - name: caption
+    label: Bildetekst
+    type: string
+- name: callout
+  label: Callout-boks
+  icon: info-circle
+  fields:
+  - name: type
+    label: Type (info/warn/danger)
+    type: string
+  - name: text
+    label: Tekst
+    type: string
