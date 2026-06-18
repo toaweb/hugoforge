@@ -1,0 +1,15 @@
+{{ define "main" }}
+<section class="pt-[120px] pb-20 text-center">
+  <div class="max-w-[680px] mx-auto px-6">
+    <div class="text-[13px] text-accent uppercase tracking-[0.08em] mb-4 font-mono">$ 404 — fil ikke funnet</div>
+    <h1 class="text-7xl md:text-9xl font-bold text-fg-heading leading-none mb-4 font-mono">404</h1>
+    <p class="text-xl md:text-2xl text-danger mb-3 font-mono">Siden finnes ikke.</p>
+    <p class="text-base md:text-lg text-muted max-w-[560px] mx-auto mb-9">
+      Siden du leter etter har flyttet, eksisterte aldri, eller ble fjernet. Gå tilbake til forsiden.
+    </p>
+    <div class="flex gap-3 justify-center flex-wrap">
+      <a href="{{ "/" | relLangURL }}" class="inline-flex items-center gap-2 px-7 py-3 rounded-lg font-mono text-[15px] font-bold bg-accent text-bg hover:opacity-85 transition-opacity">Til forsiden</a>
+    </div>
+  </div>
+</section>
+{{ end }}
